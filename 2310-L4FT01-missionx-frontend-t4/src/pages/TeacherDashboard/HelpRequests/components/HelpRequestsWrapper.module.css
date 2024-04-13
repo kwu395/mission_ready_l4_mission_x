@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Open+Sans&display=swap');
+
+/* General layout styling */
+.background {
+    background-color: #B2E4FA;
+}
+
+.container {
+    display: inline-block;
+    margin: 50px 30px;
+    background-color: #FFFFFF80;
+    border-radius: 30px;
+    padding: 40px;
+    width: 95%;
+    height: calc(100vh - 220px);
+    color: #707070;
+    overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+    width: 24px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #FFFFFFBF;
+    border-radius: 15px;
+    margin: 70px;
+}
+   
+.container::-webkit-scrollbar-thumb {
+    background: #43C0F6;
+    border: 4px solid white;
+    border-radius: 15px;
+}

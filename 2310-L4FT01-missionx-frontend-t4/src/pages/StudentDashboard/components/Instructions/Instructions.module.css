@@ -1,0 +1,26 @@
+/* Text styling - Instructions */
+.instructionsContainer {
+    width: 930px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.sectionInstructionTitle {
+    font-family: Nunito;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.sectionInstruction {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Images styling - Instructions */
+.renderImage {
+    width: 900px;
+    margin-bottom: 20px;
+}

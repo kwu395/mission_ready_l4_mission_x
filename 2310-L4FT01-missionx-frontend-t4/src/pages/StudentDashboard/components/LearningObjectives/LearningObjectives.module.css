@@ -1,0 +1,22 @@
+/* Text styling - Learning Objectives */
+.sectionTitle {
+    font-family: Nunito;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sectionSubtitle {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Images styling - Learning Objectives */
+.renderBlocks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}

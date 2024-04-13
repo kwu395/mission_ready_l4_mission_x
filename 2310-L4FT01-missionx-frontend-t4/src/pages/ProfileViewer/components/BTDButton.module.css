@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Open+Sans&display=swap');
+
+.BTDButton {
+    width: 220px;
+    height: 35px;
+    background-color: #F91C85;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 1px 8px gray;
+}
+
+.BTDButton:hover {
+    background-color: #ff61ae;
+    cursor: pointer;
+}

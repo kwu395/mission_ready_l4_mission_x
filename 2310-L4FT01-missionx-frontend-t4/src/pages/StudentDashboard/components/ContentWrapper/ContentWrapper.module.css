@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Open+Sans&display=swap');
+
+/* General layout styling */
+/* .background {
+    background-color: #B2E4FA;
+} */
+
+.container {
+    display: inline-block;
+    margin: 50px 30px;
+    background-color: #FFFFFF80;
+    border-radius: 30px;
+    padding: 40px;
+    width: 80vw;
+    height: 80%;
+    min-height: calc(100vh - 120px);
+    color: #707070;
+}

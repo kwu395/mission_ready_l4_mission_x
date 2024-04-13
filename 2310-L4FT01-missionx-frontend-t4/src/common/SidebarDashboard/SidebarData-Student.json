@@ -1,0 +1,57 @@
+[
+
+    {
+        "title": "LEARNING OBJECTIVES",
+        "path": "learning-objectives",
+        "icon": "/src/assets/StudentDashboard/learningObjectives.png",
+        "selectedIcon": "/src/assets/StudentDashboard/learningObjectivesSelected.png",
+        "alt": "learning objectives icon"
+    },
+
+    {
+        "title": "INSTRUCTIONS",
+        "path": "instructions",
+        "icon": "/src/assets/StudentDashboard/instructions.png",
+        "selectedIcon": "/src/assets/StudentDashboard/instructionsSelected.png",
+        "alt": "instructions icon"
+    },
+
+    {
+        "title": "VIDEO TUTORIAL",
+        "path": "video-tutorial",
+        "icon": "/src/assets/StudentDashboard/video.png",
+        "selectedIcon": "/src/assets/StudentDashboard/videoSelected.png",
+        "alt": "video tutorial icon"
+    },
+
+    {
+        "title": "MAKE PROJECT",
+        "path": "make-project",
+        "icon": "/src/assets/StudentDashboard/makeProject.png",
+        "selectedIcon": "/src/assets/StudentDashboard/makeProjectSelected.png",
+        "alt": "make project icon"
+    },
+
+    {
+        "title": "SUBMIT PROJECT",
+        "path": "submit-project",
+        "icon": "/src/assets/StudentDashboard/submitProject.png",
+        "selectedIcon": "/src/assets/StudentDashboard/submitProjectSelected.png",
+        "alt": "submit project icon"
+    },
+
+    {
+        "title": "BONUS CHALLENGE",
+        "path": "bonus-challenge",
+        "icon": "/src/assets/StudentDashboard/bonusChallenge.png",
+        "alt": "bonus challenge icon"
+    },
+    
+    {
+        "title": "TAKE THE QUIZ",
+        "path": "take-the-quiz",
+        "icon": "/src/assets/StudentDashboard/takeTheQuiz.png",
+        "alt": "take the quiz icon"
+    }
+
+]

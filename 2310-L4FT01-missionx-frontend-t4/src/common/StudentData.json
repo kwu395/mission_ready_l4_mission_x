@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Aiden Andrews",
+        "gender": "male",
+        "profileImg": "./images/students/AidenAndrews.png"
+    },
+
+    {
+        "name": "Alice Kindellan",
+        "gender": "female",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Courtney Bristol",
+        "gender": "female",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Hanu Nepe",
+        "gender": "male",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Harry McGrath",
+        "gender": "male",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Javier Fuego",
+        "gender": "male",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Lisa Horan",
+        "gender": "female",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Mark OLeary",
+        "gender": "male",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Nagani Cortes",
+        "gender": "",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Neveah Machenry",
+        "gender": "female",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Rawiri Fletcher",
+        "gender": "male",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Shane OMonahan",
+        "gender": "male",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Simon Laine",
+        "gender": "male",
+        "profileImg": ""
+    },
+
+    {
+        "name": "Tokio Han",
+        "gender": "female",
+        "profileImg": ""
+    }
+]

@@ -1,0 +1,42 @@
+.footerHome {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 634px;
+    background-color: #B2E4FA;
+    padding-left: 282px;
+    color: #707070;
+}
+
+.footerHome > ul {
+    margin-top: 154px;
+    margin-right: 120px;
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.category {
+    margin-bottom: 40px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.levelUpWorksText {
+    width: 466px;
+}
+
+.levelUpWorksTitle {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1500px) {
+    .footerHome > ul {
+        margin-left: -90px;
+
+    }
+
+}

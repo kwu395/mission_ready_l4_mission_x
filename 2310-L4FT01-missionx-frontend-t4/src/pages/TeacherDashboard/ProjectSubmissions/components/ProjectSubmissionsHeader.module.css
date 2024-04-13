@@ -1,0 +1,12 @@
+.contentHeader{
+    /* top: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.actions{
+    display: flex;
+    left: 0;
+}

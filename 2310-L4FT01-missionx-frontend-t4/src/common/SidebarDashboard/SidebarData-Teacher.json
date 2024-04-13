@@ -1,0 +1,44 @@
+ [
+
+    {
+        "title": "PROGRESS TRACKER",
+        "path": "/",
+        "icon": "/src/assets/TeacherDashboard/progressTracker.png",
+        "selectedIcon": "/src/assets/TeacherDashboard/progressTrackerSelected.png",
+        "alt": "progress tracker icon"
+    },
+
+    {
+        "title": "STUDENT PROFILES",
+        "path": "/",
+        "icon": "/src/assets/TeacherDashboard/studentProfiles.png",
+        "selectedIcon": "/src/assets/TeacherDashboard/studentProfilesSelected.png",
+        "alt": "student profiles icon"
+    },
+
+    {
+        "title": "HELP REQUESTS",
+        "path": "help-requests",
+        "icon": "/src/assets/TeacherDashboard/helpRequests.png",
+        "selectedIcon": "/src/assets/TeacherDashboard/helpRequestsSelected.png",
+        "alt": "help requests icon"
+    },
+
+    {
+        "title": "PROJECT SUBMISSIONS",
+        "path": "project-submissions",
+        "icon": "/src/assets/TeacherDashboard/projectSubmissions.png",
+        "selectedIcon": "/src/assets/TeacherDashboard/projectSubmissionsSelected.png",
+        "alt": "project submissions icon"
+    },
+
+    {
+        "title": "PROJECT LIBRARY",
+        "path": "/",
+
+        "icon": "/src/assets/TeacherDashboard/projectLibrary.png",
+        "selectedIcon": "/src/assets/TeacherDashboard/projectLibrarySelected.png",
+        "alt": "project library icon"
+    }
+
+]

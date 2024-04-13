@@ -1,0 +1,191 @@
+
+/* .sidebarNavItems > img{ 
+    width: 100%;
+    height: auto;
+    padding: .2rem;
+    display: block;
+} */
+
+/* container for sidebar */
+.sidebarNav {
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items: center;
+    background-color: #43C0F6;
+    min-width: 15rem;
+    height: inherit;
+    transition: width 0.3s ease-in-out;
+    padding: 2rem 0 2rem 0;
+}
+
+/* minimised sidebarNav */
+.miniSidebar {
+    min-width: 6rem;
+    transition: width 0.3s ease-in-out;
+    max-height: inherit;
+}
+
+/* .miniSidebar > .sidebarNavItems > li {
+    width: 100%;
+} */
+
+/* centers imgs */
+/* .miniSidebar > .sidebarNavItems > li > button > a {
+    display:flex;
+    justify-content: center;
+} */
+.miniSidebar > .sidebarNavItems > li > a {
+    display:flex;
+    justify-content: center;
+}
+
+/* changes imgs size */
+/* .miniSidebar > ul > li >  a > img {
+    margin: .5rem;
+    width: 2rem;
+} */
+
+.miniSidebar > ul > li > a > span {
+    display: none;
+    transition: width 0.3s ease-in-out;
+}
+
+.miniSidebar > .sideBarUser{
+    display: flex;
+    flex-direction: column;
+}
+
+.miniSidebar > .sideBarUser  img{
+    padding: .1rem;
+    margin: .5rem;
+    width: 1.5rem;
+    height: auto;
+}
+
+.miniSidebar > .sideBarUser span{
+    display: none;
+}
+
+.miniSidebar > .toggleArrows {
+    rotate: 180deg;
+    transition: 1s justify-content ease-in-out;
+}
+
+.miniSidebar > .advertisementArea {
+    display: none;
+}
+
+/* items in sidebar*/
+.profile {
+    padding: 1rem;
+}
+
+.profileImg {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    background-color: antiquewhite;
+}
+
+.sidebarNavItems {
+    width: 100%;
+    list-style: none;
+}
+
+.sidebarNavItems ul li{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebarNavItems span {
+    padding: .2rem;
+    font-size: small;
+    color: white;
+    margin: .2rem;
+}
+
+.sidebarNavItems a{
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.sidebarNavItems  img {
+    width: 2rem;
+    margin: .5rem;
+}
+
+.sidebarNav .selectedIcon {
+    display: none;
+}
+
+
+/* active item style */
+.active{
+    background-color: #B2E4FA;
+}
+
+.active > span {
+    color: #707070;
+}
+
+.active .icon {
+    display: none;
+}
+
+.active .selectedIcon {
+    display: block;
+}
+
+/* toggle arrow */
+.toggleArrows {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    width: 100%;
+    padding: .8rem 0 .8rem 0;
+}
+
+.toggleArrowLeft {
+    right: 0;
+    bottom: 35%;
+    padding: 1.2rem;
+    background-color: #B2E4FA;
+    border-radius: 20% 0 0 20%;
+}
+
+/* advertisement area */
+.advertisementArea {
+    height: 30%;
+    width: 100%;
+}
+
+/* user profile section */
+.sideBarUser {
+    display: flex;
+    align-items: baseline;
+    padding: .5rem;
+}
+
+.sideBarUser a {
+    text-decoration: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user img {
+    width: 30%;
+}
+
+.user span {
+    padding: .2rem;
+    font-size: smaller;
+    color: white;
+}

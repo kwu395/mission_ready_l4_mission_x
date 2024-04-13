@@ -1,0 +1,11 @@
+[
+    {
+        "id": "callTeacher",
+        "title": "Show your teacher",
+        "text" : "If your teacher is in the same room as you, click the button below to let them know you are done.",
+        "imgSrc": "/src/assets/StudentDashboard/submitProject-Photo.png",
+        "imgAlt": "Photo of student looking at computer monitor",
+        "btnText": "Call Teacher",
+        "btnIcon": "/src/assets/StudentDashboard/callTeacher.png"
+    }
+]

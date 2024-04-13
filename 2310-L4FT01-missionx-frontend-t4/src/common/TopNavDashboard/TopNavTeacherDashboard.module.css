@@ -1,0 +1,66 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, 'Open Sans', sans-serif;
+}
+
+/* Images styling */
+.logo {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.flagContainer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 20px;
+}
+
+.flag {
+    height: 12px;
+    margin: 0 5px;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+    gap: 40%;
+}
+
+.navbarText {
+    color: #707070;
+}
+
+.ctaContainer {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.ctaContainer > button {
+    width: 200px;
+    height: 35px;
+    color: white;
+    font-family: inherit;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 3px 5px #cac9c9;
+}
+
+.helpBtn {
+    background-color: #F91C85;
+}
+
+.moreProjBtn {
+    background-color: #43C0F6;
+}

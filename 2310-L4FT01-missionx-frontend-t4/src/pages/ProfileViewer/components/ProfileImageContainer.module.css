@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Open+Sans&display=swap');
+
+.container {
+    width: 220%;
+    height: 575px;
+    border: 2px solid #E2DFDF;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.container img {
+    position: relative;
+    top: 15%;
+    left: 27%;
+}
+
+.profileButtons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 57%;
+    left: 55%;
+}
+
+.profileButtons button {
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 16px;
+    width: 175px;
+    height: 35px;
+    margin-bottom: 34px;
+    border: 3px solid #64CBF7;
+    background-color: white;
+    color: #64CBF7;
+    border-radius: 8px;
+    font-weight: 800;
+    box-shadow: 0px 1px 8px gray;
+}
+
+.profileButtons button:hover {
+    cursor: pointer;
+    border: 3px solid #3ec5ff;
+    color: #3ec5ff;
+    background-color: rgb(240, 240, 240);
+}

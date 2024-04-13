@@ -1,0 +1,12 @@
+.display{
+    display: flex;
+    align-items: start;
+    width: 90%;
+    height: 90%;
+    max-height:calc(100vh - 120px) ;
+    background-color: #FFFFFF80;
+    /* padding: 6rem 3rem; */
+    margin: 3rem;
+    border-radius: 1.5rem;
+    color: #707070;
+}

@@ -1,0 +1,127 @@
+.enquireSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 634px;
+}
+
+.enquireSectionContainer {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  width: 1446px;
+  height: 450px;
+  top: 90px;
+  gap: 140px;
+  padding-top: 20px;
+}
+
+.enquireSectionContainer > img {
+  width: 625px;
+  height: 417px;
+}
+
+.enquireSectionText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  width: 610px;
+  color: #6c6c6c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.enquireSectionText > h1 {
+  font-family: "Nunito";
+  font-size: 42px;
+  letter-spacing: 0.84px;
+}
+
+.enquireSectionText > h2 {
+  font-family: "Open Sans";
+  font-size: 32px;
+  letter-spacing: 0.84px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.enquireSectionText > p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  letter-spacing: 0.84px;
+  font-weight: 700;
+}
+
+.enquireSectionButtons {
+  display: flex;
+  gap: 110px;
+}
+
+.enquireSectionBtn1 {
+  width: 175px;
+  height: 35px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 5px #00000029;
+  border: 3px solid #43c0f6;
+  border-radius: 7px;
+  font-family: "Nunito";
+  font-weight: 900;
+  letter-spacing: 0.32px;
+  color: #6c6c6c;
+  font-size: 16px;
+}
+
+.enquireSectionBtn2 {
+  width: 175px;
+  height: 35px;
+  background: #f91c85 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 5px #00000029;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  font-family: "Nunito";
+  font-weight: 900;
+  letter-spacing: 0.32px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform: scale(1);
+}
+
+.enquireSectionBtn2:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1500px) {
+  .enquireSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 1446px;
+    height: 650px;
+    top: 90px;
+    gap: 140px;
+    padding-top: 20px;
+  }
+
+  .enquireSectionContainer > img {
+    width: 120px;
+    height: 100px;
+    margin-bottom: -500px;
+    opacity: 0;
+  }
+
+  .enquireSectionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 610px;
+    color: #6c6c6c;
+    padding: 30px;
+    margin: 40px;
+  }
+}

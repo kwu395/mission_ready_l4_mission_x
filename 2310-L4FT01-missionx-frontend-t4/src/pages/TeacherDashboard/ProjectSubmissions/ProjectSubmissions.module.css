@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.content > h2 {
+    color: #707070;
+    padding: 1rem;
+    font-weight: bold;
+    font-family: 'Nunito' , 'sans-serif';
+    font-weight: 900;
+}
+
+.submissionViewer {
+    background-color: white;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 600;
+    min-height: 10%;
+    width: 90%;
+    border-radius: .6rem;
+    box-shadow: .1rem .1rem .3rem #00000029;
+
+}

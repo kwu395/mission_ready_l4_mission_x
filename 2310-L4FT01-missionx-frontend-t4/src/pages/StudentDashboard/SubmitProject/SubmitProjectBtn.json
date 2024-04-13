@@ -1,0 +1,13 @@
+[
+    {
+        "id": "sendPhoto",
+        "btnText": "Send Photo",
+        "btnIcon": "../../../assets/StudentDashboard/sendPhoto.png"
+    },
+
+    {
+        "id": "callTeacher",
+        "btnText": "Call Teacher",
+        "btnIcon": "../../../assets/StudentDashboard/callTeacher.png"
+    }
+]

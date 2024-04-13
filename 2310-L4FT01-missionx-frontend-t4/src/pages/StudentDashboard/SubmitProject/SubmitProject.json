@@ -1,0 +1,12 @@
+[
+    {
+        "id": "submitPhoto",
+        "title": "Submit project photo",
+        "text" : "After completing your project, take a screenshot of your project and upload it here.",
+        "imgSrc": "/src/assets/StudentDashboard/makeProject-screenshot.png",
+        "imgAlt": "Project screenshot",
+        "btnText": "Send Photo",
+        "btnIcon": "/src/assets/StudentDashboard/sendPhoto.png"
+    }
+
+]

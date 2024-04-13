@@ -1,0 +1,199 @@
+.carouselSectionContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 650px;
+    color: #6C6C6C;
+    
+}
+
+/* SECTION LEFT */
+.carouselSectionLeft {
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    height: 493px;
+    position: relative;
+    top: 78px;
+
+}
+
+.carouselSectionText {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 554px;
+    padding: 10px;
+}
+
+.carouselSectionText > h1 {
+    padding-top: 10px;
+    font-size: 42px;
+    font-family: "Nunito";
+    font-weight: 700;
+    letter-spacing: 0.84px;
+}
+
+.carouselSectionText > p {
+    padding-top: 30px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.carouselSectionText > h2 {
+    padding-top: 60px;
+    font-size: 30px;
+    font-family: "Nunito";
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+.carouselSectionIcons > img {
+    cursor: pointer;
+}
+
+
+
+/* SECTION RIGHT */
+
+.carouselSectionRight {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 728px;
+    height: 493px;
+    position: relative;
+    top: 78px;
+    margin-left: -90px;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    margin-bottom: -50px;
+}
+
+
+.carouselButtons {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.indicatorsButtons {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #6C6C6C;
+    position: relative;
+}
+
+.indicator-symbol {
+    color: #000000;
+    
+}
+
+.indicator-symbol-active {
+    color: #6C6C6C;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    
+    .carouselSectionContainer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 980px;
+        color: #6C6C6C;
+        
+    }
+
+    .carouselSectionIcons {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .carouselSectionLeft {
+        display: flex;
+        flex-direction: column;
+        width: 728px;
+        height: 493px;
+        position: relative;
+        top: 78px;
+        margin-left: 100px;
+    
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+
+    .carouselSectionRight {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 728px;
+        height: 493px;
+        position: relative;
+        top: 78px;
+        margin-left: -90px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .carouselSectionRight {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 728px;
+        height: 493px;
+        position: relative;
+        top: 70px;
+        margin-left: -90px;
+    }
+
+}
+
+@media screen and (max-width: 1130px) {
+    .carouselSectionRight {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 728px;
+        height: 493px;
+        position: relative;
+        top: 70px;
+        margin-left: -90px;
+        opacity: 0;
+    }
+
+    .carouselSectionLeft {
+        display: flex;
+        flex-direction: column;
+        width: 728px;
+        height: 493px;
+        position: relative;
+        top: 78px;
+        margin-left: 200px;
+    
+    }
+}
