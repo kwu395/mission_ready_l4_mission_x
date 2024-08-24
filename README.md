@@ -30,8 +30,8 @@ in an easy way. It is designed so that classes can be conducted either in person
 
 <p style="font-size: 20px">Teacher Profile Page</p>
 
-![Teacher Profile Page](https://media.discordapp.net/attachments/822322613816262660/1228572379442319470/image.png?ex=662c8831&is=661a1331&hm=dd480350d27aa3c6daa5e8e2e760f2a70ee6c696bfd1d80064946975e89e3b1e&=&format=webp&quality=lossless)
+![TeacherProfilePage](./teacherprofile.PNG)
 
 <p style="font-size: 20px">Help Requests Page</p>
 
-![Help Requests Page](https://media.discordapp.net/attachments/822322613816262660/1228572461814251551/image.png?ex=662c8844&is=661a1344&hm=f8abae1059405c43c37c8bfffd466fbd3feaec2d1f08bfe4ad37a19af290ab57&=&format=webp&quality=lossless)
+![HelpRequestsPage](./helprequests.PNG)
