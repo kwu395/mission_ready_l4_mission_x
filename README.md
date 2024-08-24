@@ -30,8 +30,8 @@ in an easy way. It is designed so that classes can be conducted either in person
 
 <p style="font-size: 20px">Teacher Profile Page</p>
 
-![TeacherProfilePage](./teacherprofile.PNG)
+![TeacherProfilePage](./teacherprofile.png)
 
 <p style="font-size: 20px">Help Requests Page</p>
 
-![HelpRequestsPage](./helprequests.PNG)
+![HelpRequestsPage](./helprequests.png)
